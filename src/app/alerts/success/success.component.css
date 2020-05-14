@@ -1,0 +1,9 @@
+.success {
+  border: 1px solid #1e7529;
+  border-radius: 1.0rem;
+  background-color: #bdedc3;
+  color: #1e7529;
+  font-size: 1.8rem;
+  padding: 1.6rem;
+  text-align: center;
+}
