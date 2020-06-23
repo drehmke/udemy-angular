@@ -2,6 +2,26 @@
   <div class="col-xs-12">
     <h2>Servers</h2>
     <hr />
+    <div>
+      <label>Server Name:</label>
+      <!-- <input
+        type="text"
+        class=""
+        (input)="onUpdateServerName($event)"
+
+      /> -->
+      <input
+        type="text"
+        class=""
+        [(ngModel)]="serverName"
+      />
+      <p>{{ serverName }}</p>
+    </div>
+    <button
+      [disabled]="!allowNewServer"
+      (click)="onCreateServer()"
+    >Add Server</button>
+    <p>{{ serverCreationStatus }}</p>
   </div>
 </div>
 <div class="row">
