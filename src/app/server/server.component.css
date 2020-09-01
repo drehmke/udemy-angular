@@ -1,4 +1,8 @@
 h3 {
-  color: whitesmoke;
+  color: yellow;
   padding: .2rem 1rem;
+}
+
+.online {
+  color: white;
 }

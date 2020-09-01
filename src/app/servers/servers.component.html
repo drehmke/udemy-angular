@@ -28,11 +28,12 @@
     </ng-template> -->
   </div>
 </div>
-<div class="row">
+<!-- <div class="row">
   <div class="col-xs-6">
     <app-server></app-server>
   </div>
   <div class="col-xs-6">
     <app-server></app-server>
   </div>
-</div>
+</div> -->
+<app-server *ngFor="let server of servers"></app-server>
